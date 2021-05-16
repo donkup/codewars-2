@@ -12,6 +12,8 @@ const b = [0, 0, 10, 5, 7, 0, 0];
 const c = [50, 0, 10, 5, 7, 40, 15];
 const d = [100, 200, 300, 400, 500, 600, 700];
 const e = [100, 100, 100, 100, 100, 100, 100];
+const f = [100, 100, 100, 100, 100, 100, 100];
+const g = [0, 150, 50, 0, 1000, 20, 280];
 
 function krituliuKiekis(list) {
     let savaitesKrituliai = 0;
@@ -33,8 +35,9 @@ function krituliuKiekis(list) {
     if (savaitesKrituliai > 1000){
         return 'Barsukas turetu sedeti namie';
     }
-    else 'Labai daug lietaus';
-     
+    else {
+        return'Labai daug lietaus';
+    }
  }
 
 const xa =krituliuKiekis(a);
@@ -42,6 +45,8 @@ const xb =krituliuKiekis(b);
 const xc =krituliuKiekis(c);
 const xd =krituliuKiekis(d);
 const xe =krituliuKiekis(e);
+const xf =krituliuKiekis(f);
+const xg =krituliuKiekis(g);
 
 
 console.log(xa);
@@ -49,3 +54,5 @@ console.log(xb);
 console.log(xc);
 console.log(xd);
 console.log(xe);
+console.log(xf);
+console.log(xg);
